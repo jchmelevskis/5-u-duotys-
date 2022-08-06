@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <link href="https://fonts.googleapis.com/css2?family=Unica+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+<head>
+    <style type="text/css">
+
+         body{
+        background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+         }
+
+         .shrink {
+            width:230px;
+            height:308px;
+            position: relative;
+            background:cadetblue;
+            line-height: 100px;
+            text-align: center;
+            font-size: 3em;
+            font-family: unica one;
+            color: black;
+            margin: 100px auto;
+            box-shadow: 5px 10px #888888;
+            border-radius: 10px;
+            transition: left 1s linear 1s; 
+            transition-property: width;  
+            
+}
+
+.shrink:hover
+{
+ left: 80px;
+ width: 40%;
+ cursor: pointer;
+}
+
+
+.welcome {
+text-align: center; 
+position: relative;
+top:50%;
+margin: 50px; 
+width: 100% auto;
+}
+
+.welcome p {
+           
+           text-transform: uppercase;
+                   
+}
+
+.text1{
+    font-size: 50px;
+    color: white;
+    position: relative;
+    margin-bottom: 20px;
+    animation: text 3s;
+}
+
+.text2{
+    font-size: 30px;
+    color: saddlebrown;
+    
+}
+
+@keyframes text {
+    0%{
+        color: black;
+    margin-bottom: -50px;
+    }
+    30%{
+        letter-spacing: 15px;
+        
+    }
+}
+    
+}
+    </style>
+</head>
+<body>
+    <div class="shrink">Welcome in Code Academy</div>
+    <div class="welcome">
+        <p class="text1">Welcome in</p>
+        <p class="text2">Code Academy</p>
+
+    </div>
+</body>
+
+
+</html>
